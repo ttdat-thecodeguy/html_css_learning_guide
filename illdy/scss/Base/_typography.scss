@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+body {
+    font-size: $font-size--normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: $color-font;
+}
+
+.heading {
+    &--primary-main {
+        font-size: $font-size--biggest;
+        font-weight: $font-weight--biggest;
+    }
+}

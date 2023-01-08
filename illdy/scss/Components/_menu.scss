@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    padding-top: $spacing--50;
+    &__logo {
+        flex-grow: 1;
+    }
+
+    &__main {
+        display: inline-block;
+
+        &--item {
+            color: $color-white;
+            line-height: 26px;
+            text-decoration: none;
+            font-weight: 600;
+
+            &:not(:last-child) {
+                margin-left: $spacing--60;
+            }
+
+            &:hover {
+                color: $color-vivid--yellow;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
