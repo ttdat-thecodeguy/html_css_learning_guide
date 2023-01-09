@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}   
+
+body {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: calc(25% - 30px);
+    margin-left: 30px;
+}
+
+.card-top {
+    padding: 12px;
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.card-user {
+    display: flex;
+    align-items: center;
+}
+
+.card-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-user-top {
+    display: flex;
+    align-items: center;
+}
+
+.card-user-game {
+    font-weight: 300;
+    color: #999;
+}
+
+.card-bottom {
+    padding: 25px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
