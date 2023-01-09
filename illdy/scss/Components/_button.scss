@@ -1,0 +1,35 @@
+._btn {
+    padding: $spacing--40 $spacing--70;
+    color: $color-white;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    transition: all .5s;
+    &--primary {
+        background-color: $color-vivid--yellow;
+        border: $button-border-width solid $color-vivid--yellow;
+    
+        &:hover {
+            background-color: $color-vivid--purple;
+            border: $button-border-width solid $color-vivid--purple;
+        }
+    }
+
+    &--transprarent {
+        background-color: rgba(0,0,0, 0.3);
+        border: $button-border-width solid $color-white;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    &:not(:last-child) {
+        margin-right: $spacing--40;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}

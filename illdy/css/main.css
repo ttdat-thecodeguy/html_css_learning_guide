@@ -23,8 +23,14 @@ body {
 .u-margin-top-normal {
   margin-top: 0.67rem; }
 
+.u-margin-top-huge {
+  margin-top: 2.25rem; }
+
 .u-text-align-center {
   text-align: center; }
+
+.u-space-evenly {
+  justify-content: space-evenly; }
 
 .header {
   background-image: url("../resources/images/front-page-header.jpg");
@@ -61,3 +67,27 @@ body {
 
 .dot--yellow {
   color: #ffde00; }
+
+._btn {
+  padding: 1rem 5.06rem;
+  color: #FFFFFF;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  transition: all .5s; }
+  ._btn--primary {
+    background-color: #ffde00;
+    border: 4px solid #ffde00; }
+    ._btn--primary:hover {
+      background-color: #9b51e0;
+      border: 4px solid #9b51e0; }
+  ._btn--transprarent {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 4px solid #FFFFFF; }
+    ._btn--transprarent:hover {
+      background-color: transparent; }
+  ._btn:not(:last-child) {
+    margin-right: 1rem; }
+  ._btn:hover {
+    text-decoration: none;
+    color: #FFFFFF; }
