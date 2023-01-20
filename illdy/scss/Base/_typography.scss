@@ -13,3 +13,19 @@ body {
         font-weight: $font-weight--biggest;
     }
 }
+
+.section {
+    &--primary-main {
+        color: $color-section-primary;
+        font-size: $font-size--big;
+        font-weight: $font-size--biggest;
+    }
+
+    &--text {
+        color: $color-font;
+    }
+
+    &--quote {
+        color: $color-white;
+    }
+}

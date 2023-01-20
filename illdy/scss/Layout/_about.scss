@@ -1,0 +1,5 @@
+.about {
+    &__text-box {
+        @include m-layout-center;
+    }
+}

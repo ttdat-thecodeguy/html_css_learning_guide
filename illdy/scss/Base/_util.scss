@@ -1,6 +1,5 @@
 .u-layout-center {
-    margin: 0 auto;
-    width: 968px;
+    @include m-layout-center;
 }
 
 .u-margin-top-normal {
@@ -11,12 +10,31 @@
     margin-top: $spacing--60;
 }
 
+.u-spacing-huge {
+    margin: $spacing--60 0;
+}
+
 .u-text-align-center {
     text-align: center;
 }
 
-
-
 .u-space-evenly {
     justify-content: space-evenly;
+}
+
+.u-background-section::before {
+    content: "";
+    background-image: url('../resources/images/background-section.png');
+    background-size: auto;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.p--relative {
+    position: relative;
 }
