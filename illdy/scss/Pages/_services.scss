@@ -1,0 +1,10 @@
+.services {
+    @include m-layout-center;
+    &__container {
+        display: flex;
+        text-align: center;
+        &-item {
+            margin-left: $spacing--70;
+        }
+    }
+}

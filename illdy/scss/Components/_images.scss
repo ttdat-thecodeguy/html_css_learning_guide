@@ -1,0 +1,19 @@
+.images__container {
+    width: 100%;
+    flex: 0 0 100%;
+    align-items: center;
+    @include m-layout-center(1920px);
+
+    & > div {
+        flex: 1;
+    }
+    &-item {
+        display: inline-block;
+        transition: all .4s;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+}

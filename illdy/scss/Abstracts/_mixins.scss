@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-@mixin m-layout-center {
+@mixin m-layout-center($width: 1390px) {
         margin: 0 auto;
-        width: 1024px;
+        width: $width;
 }

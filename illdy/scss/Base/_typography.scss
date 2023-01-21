@@ -19,6 +19,18 @@ body {
         color: $color-section-primary;
         font-size: $font-size--big;
         font-weight: $font-size--biggest;
+
+        &--1 {
+            color: $color-vivid--red;
+        }
+
+        &--2 {
+            color: $color-vivid--yellow;
+        }
+
+        &--3 {
+            color: $color-vivid--purple;
+        }
     }
 
     &--text {
