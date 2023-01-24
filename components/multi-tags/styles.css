@@ -79,17 +79,17 @@ h1 i{
     border: 1px solid var(--silver-gray);
     border-top: none;
     padding: 12px 18px;
-    height: 210px;
+    max-height: 210px;
     overflow: scroll;
     overflow-x: hidden;
 }
 
 .main-container-tags .select-item {
-    height: 40px;
+    max-height: 40px;
 }
 
 .main-container-tags .select-item input[type='checkbox'] {
-    height: 21px;
-    width: 21px;
+    max-height: 21px;
+    max-width: 21px;
     margin-right: 20px;
 }
