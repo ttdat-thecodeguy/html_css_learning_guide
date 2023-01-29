@@ -12,7 +12,7 @@
     <div class="page-container">
         <div class="header">
                 <div class="header-left">
-                    <h1>DJI MAVIC</h1>
+                    <h1 class="logo">DJI MAVIC</h1>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             <div class="header-right">
@@ -27,17 +27,17 @@
         </div>
         <div class="left-page">
             <div class="product-info">
-                <h2>Mavic Pro Platinum</h2>
+                <h2>DJI Mavic Mini</h2>
                 <div class="product-border"></div>
                 <div class="product-detail">
-                    <h3>Thiết Kế Nhỏ Nhẹ</h3>
+                    <h3>Thông Tin Chi Tiết</h3>
                     <p>Sở hữu trọng lượng siêu nhẹ như chiếc DJI Mavic Mini đời đầu, DJI Mini SE chỉ nặng khoảng 249g</p>
                 </div>
-                <p class="price">Price: USD $999</p>
+                <p class="product-price">Price: <span class="price">$9.99</span></p>
                 <button class="btn btn-primary" id="buy">Buy Now</button>
             </div>        
         </div>
-        <img src="./resources/drone.png" alt="" srcset="">
+        <img class="product-img" src="./resources/drone.png" alt="" srcset="">
         <div class="right-page">
             <div class="side">
                 <h2>Shop</h2>
@@ -49,6 +49,106 @@
                 </ul>
             </div>
         </div>
+        <div class="cart" id="cart">
+            <div style="padding: 10px 18px;">
+                <div class="cart-header">
+                    <div class="logo-container">
+                        <h1 class="logo">DJI MAVIC</h1>
+                        <span>|</span>
+                        <h1>Shopping Cart</h1>
+                    </div>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <div class="cart-heading">
+                    <h2>Orders</h2>
+                    <a class="clear" href="#ClearAll">Clear All</a>
+                </div>
+                <div class="orders">
+                    <div class="cart-item">
+                        <div style="background-image: url('./resources/drone.png');" class="cart-img"></div>
+                        <div class="cart-side-left">
+                            <h4>DJI Mavic Mini</h4>
+                            <span>Color: Red, Size: M</span>
+                            <div class="cart-side">
+                                <span>$2.99</span>
+                                <a href="#Save">Save For Later</a>
+                                <a class="clear" href="#Remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="volumn">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div style="background-image: url('./resources/drone.png');" class="cart-img"></div>
+                        <div class="cart-side-left">
+                            <h4>DJI Mavic Mini</h4>
+                            <span>Color: Red, Size: M</span>
+                            <div class="cart-side">
+                                <span>$2.99</span>
+                                <a href="#Save">Save For Later</a>
+                                <a class="clear" href="#Remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="volumn">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div style="background-image: url('./resources/drone.png');" class="cart-img"></div>
+                        <div class="cart-side-left">
+                            <h4>DJI Mavic Mini</h4>
+                            <span>Color: Red, Size: M</span>
+                            <div class="cart-side">
+                                <span>$2.99</span>
+                                <a href="#Save">Save For Later</a>
+                                <a class="clear" href="#Remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="volumn">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="total-price">
+                <div class="delivery">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <p>
+                        <span>Please Choose Delivery Method</span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="checkout-container">
+                    <div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">All</label>
+                        </div>
+                        <div class="price-container">
+                            <div class="total">
+                                Total:<span class="price">$6.99</span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="savings" style="display: none;">
+                                Savings:<span clas="price">$1.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button>Buy(1)</button>
+                </div>
+            </div>
+
+        </div>
     </div>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
